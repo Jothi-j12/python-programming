@@ -1,3 +1,4 @@
+N=int(input())
 if(1<=N<=10000):
     print("Positive")
 elif(N==0):
