@@ -1,7 +1,7 @@
 N =int(input("Enter the number")
 if(1<=N<=10000):
-    print("the given number is positive")
+    print("Positive")
 elif(N == 0):
-    print("the given number is zero")
+    print("Zero")
 else:
-    print("the given number is negative")
+    print("Negative")
