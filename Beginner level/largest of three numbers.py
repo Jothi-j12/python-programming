@@ -1,7 +1,7 @@
-def max_of_two(x,y):
+def max(x,y):
     if x > y:
         return x
     return y
-def max_of_three( x, y, z ):
-    return max_of_two( x, max_of_two( y, z ) )
-print(max_of_three(int(input()),int(input()),int(input())))
+def three( x, y, z ):
+    return max( x, max( y, z ) )
+print(three(int(input()),int(input()),int(input())))
