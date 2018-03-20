@@ -1,7 +1,7 @@
-a=int(input())  b=int(input())  c=int(input())
-if(a>b) and (a>c):
-    print(a)
-elif(b>a) and (b>c):
-    print(b)
-else:
-    print(c)
+def max_of_two(x,y):
+    if x > y:
+        return x
+    return y
+def max_of_three( x, y, z ):
+    return max_of_two( x, max_of_two( y, z ) )
+print(max_of_three(int(input()),int(input()),int(input())))
