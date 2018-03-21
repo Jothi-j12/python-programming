@@ -1,4 +1,3 @@
-N=int(input())
-p=int(input())
-k=N**p
+N,p=input().split()
+k=int(N)**int(p)
 print(k)
