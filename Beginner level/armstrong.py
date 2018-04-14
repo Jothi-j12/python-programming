@@ -10,6 +10,6 @@ digit=store%10
 result=resut+digit**count
 store=store//10
 if(store==result):
-    print("palindrome")
+    print("yes")
 else:
-    print("not a palindrome")
+    print("not")
